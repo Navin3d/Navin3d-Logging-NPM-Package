@@ -1,0 +1,28 @@
+{
+  "name": "@navin3d/log",
+  "version": "0.0.1",
+  "description": "This is an Logging package for javascript based applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Navin3d/Navin3d-Logging-NPM-Package.git"
+  },
+  "keywords": [
+    "navin3d",
+    "nodemon",
+    "logging",
+    "express"
+  ],
+  "author": "navin3d",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Navin3d/Navin3d-Logging-NPM-Package/issues"
+  },
+  "homepage": "https://github.com/Navin3d/Navin3d-Logging-NPM-Package#readme",
+  "dependencies": {
+    "process": "^0.11.10"
+  }
+}
