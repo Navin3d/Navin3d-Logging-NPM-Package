@@ -178,4 +178,5 @@ class Logging {
 
 }
 
-module.exports = Logging;
+const log = new Logging();
+module.exports = log;

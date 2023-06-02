@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Navin3d/Navin3d-Logging-NPM-Package.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "navin3d",
     "nodemon",

@@ -1,6 +1,4 @@
-const Logging = require("./index");
-
-const log = new Logging();
+const log = require("./index");
 
 log.log("Hello world!");
 log.info("Hello world!");
