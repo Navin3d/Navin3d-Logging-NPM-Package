@@ -6,6 +6,21 @@ This is an Logging package for javascript based applications.
 ## Overview
 `@navin3d/log` is a logging library for JavaScript applications. It provides a lightweight and customizable solution for logging messages, errors, and other information during runtime.
 
+## Key Features:
+1️⃣ Flexible Logging Levels: A good logging package should offer different logging levels such as error, warning, info, debug, etc. This allows developers to control the verbosity of the logs based on their needs. It enables fine-grained control over what information is logged, making troubleshooting and debugging easier.
+
+2️⃣ Customization and Configuration: The ability to configure and customize the logging package according to specific project requirements is essential. Developers should be able to define log formats, output destinations (console, file, database, etc.), and other settings. This flexibility ensures that the logging package can adapt to various environments and use cases.
+
+3️⃣ Log Filtering and Routing: A logging package should provide mechanisms for filtering logs based on specific criteria such as log level, module, or custom tags. This allows developers to focus on relevant logs and reduce noise. Additionally, the package should support routing logs to different destinations based on certain conditions or rules.
+
+4️⃣ Error Handling and Stack Traces: In the event of an error, a logging package should capture and display detailed error messages along with stack traces. This information is invaluable for diagnosing and resolving issues quickly. It enables developers to trace the execution flow and pinpoint the source of errors.
+
+5️⃣ Performance and Efficiency: Efficient logging is crucial to minimize the impact on system performance. A logging package should be designed to handle high volumes of log entries without causing significant overhead. It should also support asynchronous logging to prevent blocking the execution of critical code paths.
+
+6️⃣ Integration and Compatibility: An ideal logging package should seamlessly integrate with popular frameworks, libraries, and existing logging ecosystems. It should provide easy integration options and support various platforms and environments, including server-side, client-side, and different programming languages.
+
+7️⃣ Logging Enhancements: Additional features such as log rotation, log compression, log aggregation, log search, and log analysis can greatly enhance the usefulness of a logging npm package. These capabilities enable efficient log management, monitoring, and analysis, aiding in troubleshooting and performance optimization.
+
 ## Installation
 You can install `@navin3d/log` via npm or yarn. Run the following command:
 
