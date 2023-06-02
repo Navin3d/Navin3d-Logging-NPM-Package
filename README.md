@@ -34,6 +34,12 @@ Contributions are welcome! If you find a bug, have suggestions for improvement, 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify it according to your needs.
 
+## Acknowledgments
+We would like to thank the following contributors for their valuable contributions to this project.
+
+- Dr D S Mahendran
+- S M Pravin Durai
+
 ## Contact
 If you have any questions or need assistance, you can reach out to the project maintainer at smnavin65@gmail.com.
 
