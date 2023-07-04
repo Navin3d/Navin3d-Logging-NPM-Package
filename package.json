@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/Navin3d/Navin3d-Logging-NPM-Package#readme",
   "dependencies": {
+    "chalk": "^4.1.0",
     "process": "^0.11.10"
   }
 }

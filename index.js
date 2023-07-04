@@ -1,5 +1,7 @@
 const fs = require("fs");
 const process = require("process");
+const chalk = require("chalk");
+
 
 class Logging {
 
@@ -65,7 +67,7 @@ class Logging {
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
         const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
-        console.info(out);
+        console.info(chalk.bold.green(out));
     }
 
     warn(message) {
@@ -92,7 +94,7 @@ class Logging {
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
         const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
-        console.warn(out);
+        console.warn(chalk.bold.yellow(out));
     }
 
     trace(message) {
@@ -119,7 +121,7 @@ class Logging {
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
         const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
-        console.trace(out);
+        console.trace(chalk.bold.cyan(out));
     }
 
     debug(message) {
@@ -146,7 +148,7 @@ class Logging {
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
         const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
-        console.debug(out);
+        console.debug(chalk.bold.blue(out));
     }
 
     error(message) {
@@ -173,7 +175,7 @@ class Logging {
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
         const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
-        console.error(out);
+        console.error(chalk.bold.red(out));
     }
 
 }
