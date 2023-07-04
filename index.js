@@ -39,7 +39,7 @@ class Logging {
         } catch (err) { }
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
-        const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
+        const out = `\n${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
         console.log(out);
     }
 
@@ -66,7 +66,7 @@ class Logging {
         } catch (err) { }
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
-        const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
+        const out = `\n${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
         console.info(chalk.bold.green(out));
     }
 
@@ -93,7 +93,7 @@ class Logging {
         } catch (err) { }
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
-        const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
+        const out = `\n${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
         console.warn(chalk.bold.yellow(out));
     }
 
@@ -120,7 +120,7 @@ class Logging {
         } catch (err) { }
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
-        const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
+        const out = `\n${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
         console.trace(chalk.bold.cyan(out));
     }
 
@@ -147,7 +147,7 @@ class Logging {
         } catch (err) { }
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
-        const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
+        const out = `\n${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
         console.debug(chalk.bold.blue(out));
     }
 
@@ -174,7 +174,7 @@ class Logging {
         } catch (err) { }
         Error.prepareStackTrace = _pst;
         const fileName = `${filePath[filePath.length - 2]}/${filePath[filePath.length - 1]}`;
-        const out = `${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
+        const out = `\n${timeStamp}  ${messageType} ${processId} ===> [${this.projectName}] ${fileName} : ${message}`;
         console.error(chalk.bold.red(out));
     }
 
