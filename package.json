@@ -1,6 +1,6 @@
 {
   "name": "slf3d",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is an Logging package for javascript based applications.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Navin3d/Navin3d-Logging-NPM-Package.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org"
   },
   "keywords": [
     "navin3d",
