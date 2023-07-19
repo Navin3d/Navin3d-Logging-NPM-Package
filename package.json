@@ -1,6 +1,6 @@
 {
-  "name": "@navin3d/log",
-  "version": "0.1.4",
+  "name": "slf3d",
+  "version": "0.0.2",
   "description": "This is an Logging package for javascript based applications.",
   "main": "index.js",
   "scripts": {
