@@ -1,10 +1,10 @@
 # Navin3d-Logging-NPM-Package
 This is an Logging package for javascript based applications.
 
-# @navin3d/log
+# slf3d
 
 ## Overview
-`@navin3d/log` is a logging library for JavaScript applications. It provides a lightweight and customizable solution for logging messages, errors, and other information during runtime.
+`slf3d` is a logging library for JavaScript applications. It provides a lightweight and customizable solution for logging messages, errors, and other information during runtime.
 
 ## Key Features:
 1️⃣ Flexible Logging Levels: A good logging package should offer different logging levels such as error, warning, info, debug, etc. This allows developers to control the verbosity of the logs based on their needs. It enables fine-grained control over what information is logged, making troubleshooting and debugging easier.
@@ -22,21 +22,21 @@ This is an Logging package for javascript based applications.
 7️⃣ Logging Enhancements: Additional features such as log rotation, log compression, log aggregation, log search, and log analysis can greatly enhance the usefulness of a logging npm package. These capabilities enable efficient log management, monitoring, and analysis, aiding in troubleshooting and performance optimization.
 
 ## Installation
-You can install `@navin3d/log` via npm or yarn. Run the following command:
+You can install `slf3d` via npm or yarn. Run the following command:
 
 ```
-npm install @navin3d/log
+npm install slf3d
 ```
 or
 ```
-yarn add @navin3d/log
+yarn add slf3d
 ```
 
 ## Usage
-To use @navin3d/log in your JavaScript application, you need to import the library and create a logger instance. Here's an example:
+To use slf3d in your JavaScript application, you need to import the library and create a logger instance. Here's an example:
 
 ```
-const logger = require('@navin3d/log');
+const logger = require('slf3d');
 
 logger.log('This is a log message');
 logger.error('This is an error message');
@@ -58,4 +58,4 @@ We would like to thank the following contributors for their valuable contributio
 ## Contact
 If you have any questions or need assistance, you can reach out to the project maintainer at smnavin65@gmail.com.
 
-Please note that this is a general template, and you should customize it to fit the specific details of your @navin3d/log package.
+Please note that this is a general template, and you should customize it to fit the specific details of your slf3d package.
